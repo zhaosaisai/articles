@@ -19,7 +19,7 @@ function makeMdTemplate(dirs = []) {
     Object.keys(files).sort(() => 1).forEach(file => {
         mdTemplate += `### ${file}\n`
         for(let name of files[file]) {
-            mdTemplate += `* [${name}](${githubUrl}${encodeURIComponent(name)})\n`
+            mdTemplate += `* [${trimRight(name, '.md')}](${githubUrl}${file}/${encodeURIComponent(name)})\n`
         }    
     })
     return mdTemplate
@@ -49,4 +49,10 @@ function readdir(path) {
         console.error(`读取${path}下的文件夹出错`)
     }
     return dirs
+}
+
+function trimRight(str = "", spe = "") {
+    if(str.endsWith(spe)) {
+        return str.slice(0, str.length - spe.length)
+    }
 }
