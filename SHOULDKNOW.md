@@ -1,4 +1,4 @@
-## 服务器开启80端口
+### 服务器开启80端口
 
 1. ```bash
    vim /etc/sysconfig/iptables
@@ -28,25 +28,25 @@ nohup command > myout.file 2>&1 &
 nohup ./bin/metabase_plus -Dhttp.port=19909 > ./logs/metabase_plus.log 2>&1 &
 ```
 
-## linux查看系统的版本
+### linux查看系统的版本
 
 ```bash
 uname -a
 ```
 
-## linux查看端口占用
+### linux查看端口占用
 
 ```bash
 netstat -nap | grep 80
 ```
 
-## linux查看电脑打开的最大的文件数
+### linux查看电脑打开的最大的文件数
 
 ```bash
 cat /proc/sys/fs/file-max
 ```
 
-## Mac命令启动mysql
+### Mac命令启动mysql
 
 ```bash
 mysql.server start
@@ -54,7 +54,7 @@ mysql.server stop
 mysql.server restart
 ```
 
-## Mac查看端口占用
+### Mac查看端口占用
 
 - **netstat**
 
@@ -69,7 +69,15 @@ $mac> netstat -na | grep 端口
 lsof -i:端口
 ```
 
-## React相关
+### git添加本地文件夹作为远程仓库
+
+本地`git`除了可以添加服务器上的`git`仓库作为远程仓库，也可以添加本地的一个文件夹作为远程仓库。比如：
+
+```bash
+git remote add origin /Users/pavoooo/Documents/Pavoooo/job/new_metabase/.git
+```
+
+### React相关
 
 - 父组件中，可以通过`this.props.children.type`来直接访问构建子组件的类。
 - 使用`async`函数，在打包的时候需要使用`babel-preset-stage-3`预设。
