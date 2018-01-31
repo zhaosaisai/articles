@@ -3,6 +3,7 @@
 > 这些文章都是我自己写的，一些个人的观点。如果你能看到，欢迎交流哈！！!
 
 ### 2018
+* [String.prototype.repeat的几种polyfill](https://github.com/2json/articles/blob/master/2018/String.prototype.repeat%E7%9A%84%E5%87%A0%E7%A7%8Dpolyfill.md)
 * [webpack性能优化](https://github.com/2json/articles/blob/master/2018/webpack%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md)
 * [一字一句的搞懂vue-cli之vue webpack template配置](https://github.com/2json/articles/blob/master/2018/%E4%B8%80%E5%AD%97%E4%B8%80%E5%8F%A5%E7%9A%84%E6%90%9E%E6%87%82vue-cli%E4%B9%8Bvue%20webpack%20template%E9%85%8D%E7%BD%AE.md)
 ### 2017
