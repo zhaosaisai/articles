@@ -6,6 +6,7 @@
 * [String.prototype.repeat的几种polyfill](https://github.com/2json/articles/blob/master/2018/String.prototype.repeat%E7%9A%84%E5%87%A0%E7%A7%8Dpolyfill.md)
 * [webpack性能优化](https://github.com/2json/articles/blob/master/2018/webpack%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md)
 * [一字一句的搞懂vue-cli之vue webpack template配置](https://github.com/2json/articles/blob/master/2018/%E4%B8%80%E5%AD%97%E4%B8%80%E5%8F%A5%E7%9A%84%E6%90%9E%E6%87%82vue-cli%E4%B9%8Bvue%20webpack%20template%E9%85%8D%E7%BD%AE.md)
+* [从Segmentfault搬家](https://github.com/2json/articles/blob/master/2018/%E4%BB%8ESegmentfault%E6%90%AC%E5%AE%B6.md)
 ### 2017
 * [ 从react-start到co源码(三)](https://github.com/2json/articles/blob/master/2017/%20%E4%BB%8Ereact-start%E5%88%B0co%E6%BA%90%E7%A0%81(%E4%B8%89).md)
 * [Centos6.8 使用rpm安装mysql5.7](https://github.com/2json/articles/blob/master/2017/Centos6.8%20%E4%BD%BF%E7%94%A8rpm%E5%AE%89%E8%A3%85mysql5.7.md)

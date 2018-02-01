@@ -55,4 +55,5 @@ function trimRight(str = "", spe = "") {
     if(str.endsWith(spe)) {
         return str.slice(0, str.length - spe.length)
     }
+    return str
 }
