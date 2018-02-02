@@ -112,6 +112,16 @@ git push origin --tags
 git fetch origin tag <tagName>
 ```
 
+### python万能开头
+
+```python
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+```
+
 ### React相关
 
 - 父组件中，可以通过`this.props.children.type`来直接访问构建子组件的类。
