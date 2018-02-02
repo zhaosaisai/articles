@@ -1,5 +1,7 @@
 ## :book: My Article 
 
+ ![作者](https://img.shields.io/badge/author-saisai-brightgreen.svg) ![微信](https://img.shields.io/badge/wechat-saisai1457358080-orange.svg) ![QQ](https://img.shields.io/badge/QQ-1457358080-yellowgreen.svg) 
+
 > 这些文章都是我自己写的，一些个人的观点。如果你能看到，欢迎交流哈！！!
 
 ### 2018
