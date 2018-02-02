@@ -77,6 +77,41 @@ lsof -i:端口
 git remote add origin /Users/pavoooo/Documents/Pavoooo/job/new_metabase/.git
 ```
 
+### git标签
+
+- 打标签
+
+```bash
+git tag <tagName>
+git tag -a <tagName> -m "tag message"
+```
+
+- 查看标签
+
+```bash
+git tag 
+git tag -l
+git show <tagName>
+```
+- 删除标签
+
+```bash
+git tag -d <tagName>
+git push origin :refs/tags/<tagName> # delete local and remote tags
+```
+
+- 远程推送
+
+```bash
+git push origin --tags
+```
+
+- 远程获取指定版本的tag内容
+
+```bash
+git fetch origin tag <tagName>
+```
+
 ### React相关
 
 - 父组件中，可以通过`this.props.children.type`来直接访问构建子组件的类。
