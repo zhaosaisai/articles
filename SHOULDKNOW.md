@@ -112,7 +112,7 @@ git push origin --tags
 git fetch origin tag <tagName>
 ```
 
-### python万能开头
+### python(v2)万能开头
 
 ```python
 #!/usr/bin/env python
