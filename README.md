@@ -6,6 +6,7 @@
 
 ### 2018
 * [String.prototype.repeat的几种polyfill](https://github.com/2json/articles/blob/master/2018/String.prototype.repeat%E7%9A%84%E5%87%A0%E7%A7%8Dpolyfill.md)
+* [linux wget常用命令](https://github.com/2json/articles/blob/master/2018/linux%20wget%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
 * [webpack性能优化](https://github.com/2json/articles/blob/master/2018/webpack%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md)
 * [一字一句的搞懂vue-cli之vue webpack template配置](https://github.com/2json/articles/blob/master/2018/%E4%B8%80%E5%AD%97%E4%B8%80%E5%8F%A5%E7%9A%84%E6%90%9E%E6%87%82vue-cli%E4%B9%8Bvue%20webpack%20template%E9%85%8D%E7%BD%AE.md)
 * [从Segmentfault搬家](https://github.com/2json/articles/blob/master/2018/%E4%BB%8ESegmentfault%E6%90%AC%E5%AE%B6.md)
