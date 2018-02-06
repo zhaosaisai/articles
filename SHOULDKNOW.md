@@ -112,6 +112,13 @@ git push origin --tags
 git fetch origin tag <tagName>
 ```
 
+### linux解压tar.xz文件
+
+```bash
+$xz -d ***.tar.xz
+$tar -xvf  ***.tar
+```
+
 ### python(v2)万能开头
 
 ```python
